@@ -4,17 +4,27 @@
 ### `Frontend Team`
 
 Sherlin\
-Sneha \
+Sneha 
 
  [http://localhost:3000](http://localhost:3000)
 
 
 ### `Backend Team `
 Reemalatha \
-Srindhi \
+Srindhi 
 
 ### `Database`
  [Mugesh Rao](https://www.instagram.com/mugeshrao.offl) \
-Shamila \
+Shamila 
+
+# Techonologies
+
+### `React.js - Frontend`
+
+### `Django - Backend`
+
+### `MongoDb Or Firebase - Database`
+
+
 
 
