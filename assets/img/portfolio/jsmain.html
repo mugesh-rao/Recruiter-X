@@ -30,7 +30,7 @@
   
 
    <!-- Main section -->
-          <div class="row d-flex justify-content-around row justify-content-between"  >
+          <div class="row d-flex justify-content-around justify-content-between"  >
             <div class="col-sm-8" >
                 <div class="card rounded h-100 " style="border-radius: 15px;
                 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.06);">
@@ -40,8 +40,9 @@
                     
                   </div>
                   
-                  <div class="col">
-                   <ul class="nav-bar">
+                  <div class="col ">
+                    
+                   <ul class="  d-flex justify-content-between  ">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
                       <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
                     </svg>
@@ -87,15 +88,14 @@
                   <div class="card-body">
                     <h5 class="card-title">Skills</h5>
                     
-                    <div class="row  align-items-center" >
-                      <span class="badge badge-primary w-25  " ><h4>Python</h4></span>
-                      <span class="badge badge-primary w-25  " ><h4>Python</h4></span>
-                      <span class="badge badge-primary w-25  " ><h4>Python</h4></span>
-                     
-                   
-                      <span class="badge badge-primary w-25  " ><h4>Python</h4></span>
-                      <span class="badge badge-primary w-25  " ><h4>Python</h4></span>
-                      <span class="badge badge-primary w-25  " ><h4>Python</h4></span>
+                    <div class="row-cols  " >
+                      <span class="badge badge-primary  " ><h4>Python</h4></span>
+                      <span class="badge badge-primary  " ><h4>React</h4></span>
+                      <span class="badge badge-primary  " ><h4>Express.js</h4></span>
+                      <span class="badge badge-primary  " ><h4>MongoDb</h4></span>
+                      <span class="badge badge-primary  " ><h4>Django</h4></span>
+                      <span class="badge badge-primary  " ><h4>Python</h4></span>
+       
                      
                     </div>
                   </div>
@@ -104,22 +104,26 @@
                  
                 </div>
               </div>
-            <div class="col-sm-3 row  "  >
+            <div class="col-sm-3 row mt-1 flex justify-center px-6  "  >
               <div class="card rounded h-100" style="border-width:3px;border-style: dashed;border-radius: 15px;
                             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.06);">
                 <div class="card-body ">
                   
                       <div class=" align-items-center "  style="margin: 70px ;padding:25px auto 0 ;z-index: 99;" >   
                         <label for="files" class="btn btn-primary " style=" cursor: pointer;box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.06);background-color:#3A53B5 ; ">Upload Resume</label>
-                        <small class="text-center">Upload Upto 5Mb</small>
+                       <br>
+                        <small class="text-center justify-content-center col-sm-3  justify-center ">Upload Upto 5Mb</small>
                         <input id="files" style="visibility:hidden;" type="file">
                         
-                    </div> 
+                       </div> 
             
                   
                 </div>
               </div>
+              
             </div>
+
+            
       </div>
  
       
@@ -128,8 +132,8 @@
      
        <br>
        <br>
-<footer class="py-2 mb-2" style="background-color:#3A53B5 ;">
-
+       <footer class="py-2 mb-0" style="background-color:#3A53B5 ;">
+        
         <h5 class="text-center text-white mb-3 ">© 2021 Company, Inc</h5 >
 </footer>
     
