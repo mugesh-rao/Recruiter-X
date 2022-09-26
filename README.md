@@ -1,4 +1,4 @@
-# [Resume X](https://mugesh-rao.github.io/Resume-X/) 
+# [Recruiter-X](https://mugesh-rao.github.io/Recruiter-X/) 
 
 
 ### `Frontend Team`
