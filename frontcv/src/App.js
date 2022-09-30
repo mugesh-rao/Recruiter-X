@@ -5,9 +5,10 @@ import MainHome from './components/pages/MainHome'
 import LoginPage from './components/pages/LoginPage'
 import RegisterPage from './components/pages/RegisterPage'
 import ForgetPasswordPage from './components/pages/ForgetPasswordPage'
-import LoginHome from './components/pages/LoginHome'
 import UserDashboard from './components/pages/userdashboard'
+import HrDashboard from './components/pages/HrDashboard'
 import './App.css'
+
 // import axios from "axios";
 
 // const baseURL = "https://jsonplaceholder.typicode.com/posts/1";
@@ -40,7 +41,8 @@ export default function App() {
                     <Route path="/login" component={ LoginPage } />
                     <Route path="/register" component={ RegisterPage } />
                     <Route path="/forget-password" component={ ForgetPasswordPage } />
-                    <Route path="/home" component={ LoginHome } />
+                    <Route path="/HrDashboard" component={ HrDashboard } />
+
                     <Route path="/userdashboard" component={ UserDashboard } />
                 </Switch>
                 
