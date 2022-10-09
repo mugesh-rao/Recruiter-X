@@ -1,0 +1,65 @@
+                                           Django learning
+Introduction and installation:
+Django is i am now working with command prompt and then using python word we can see version of python installed in system.
+But for me not showing switching to app.Here the problem is solved further then i met with problem of installing virtual environment in command
+prompt
+Day2:
+ Django : It is python framework which used work with server side weba -applications by creating with api's
+ Day3:
+ Installed django and started the first concept Url routes it is nothing but a tab that contains url routing like /hi/hello seperate sqlite
+ Apps are little components of our website.eg: consider facebook if we are developing facebook there may be small conponents and files
+ seperated as apps like groups,ui..Each part is seperated into some component.The main difference between project and app is project provides
+ component dependecies whereas app provides web application which written to perfom bussiness logic ..
+
+While developing should provide two site which a admin site and client-side.
+There is diffrence between app and project Here the project consist's of configuration and app for the entire website where app is the web
+application
+
+Request and response :
+Then we have to code a request which returns some kind of response .. for that we using view.py this were client sees
+code:
+from djangp.http import HttpResponse 
+
+def index(request):                                       V-u(app)
+    return HttpsResponse ('hi')
+
+then we have to map views to urls in app ...For that we have create urls.py..
+Accessing request and responce:
+Here i have to used the formula  (app-views to urls) -->Project.urls defining
+(app-views to urls)-->Project.urls\..
+(app-views to urls) --->project(urls)
+
+
+The path parameter has four argument two for routes and views and another two for
+kwargs and name ...
+
+path() argument:route-->
+It is a string which has url patterns  and compares the url pattern in urls.py in application
+Here urls(project) sends request to url(app)  which returns it's argument's made reference as name
+
+path() argument :kwargs -->
+Arbutarty keyword arguments are passes in those dicitionary
+
+path() argument :NAME
+it acts as naming a url:
+
+
+
+DAY :SOMEDAYS:
+Purpose of view :
+returns database,render templates,
+To connect the app to main file we have to include it in the main setting .py..
+To tell django for our app we have to include as Appname.apps.Cong=fig
+
+and the request object that we specifed as attributes request what type of things it need and returns response..
+In url pattern what we have to do is we have to specify the url pattern with path function that consists of routes and nane of the file ..
+here any incoming routes will return the function we specified in the views.py it will direct to main file ..
+after directing it will return to the main.urls there we can declare those thiinsgs
+
+
+It is useful thiing to give a reference to funcion inside a path('',name of the function specified ,refernce name)
+
+
+Django database:
+Here there is setting.py in the django project which represents module level variable  represents django functions
+
